@@ -27,4 +27,4 @@ sudo service nginx restart
 sudo rm -Rf /var/www
 
 # symlink /var/www => /vagrant
-ln -s /vagrant /var/www
+ln -s -f -v /vagrant /var/www

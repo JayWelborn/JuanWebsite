@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,IAAI;EACA,UAAU,EAAE,OAAO",
+"mappings": "AAAA,IAAI;EACA,UAAU,EAAE,GAAG",
 "sources": ["../sass/home.sass"],
 "names": [],
 "file": "home.css"
