@@ -1,11 +1,17 @@
 html body {
   font-family: "Source Sans Pro";
   font-weight: 300;
-  background: #f6f4f5;
+  background-color: #f6f4f5;
   color: #292b39; }
   html body h1, html body h1, html body h3, html body h4, html body h5, html body h6, html body nav {
     font-family: "Lato";
     font-weight: 700; }
+  html body a {
+    color: #f36c36;
+    font-weight: 400; }
+  html body a:hover {
+    color: #f8991d;
+    text-decoration: none; }
   html body .navbar {
     border-radius: 0px;
     background-color: #292b39;
@@ -31,5 +37,10 @@ html body {
     color: #f6f4f5;
     border: none;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); }
+  html body .marketing {
+    padding-top: 40px; }
+    html body .marketing .featurette-image {
+      max-height: 500px;
+      border-radius: 6px; }
 
 /*# sourceMappingURL=home.css.map */
