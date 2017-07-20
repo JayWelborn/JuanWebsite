@@ -1,4 +1,35 @@
-body {
-  background: red; }
+html body {
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  background: #f6f4f5;
+  color: #292b39; }
+  html body h1, html body h1, html body h3, html body h4, html body h5, html body h6, html body nav {
+    font-family: "Lato";
+    font-weight: 700; }
+  html body .navbar {
+    border-radius: 0px;
+    background-color: #292b39;
+    color: #f6f4f5; }
+  html body #myCarousel {
+    background-image: url("../../images/header.jpg");
+    background-size: cover;
+    background-position: top center;
+    min-height: 85vh; }
+  html body .carousel .item, html body .carousel .item-active, html body .carousel .carousel-inner {
+    background-color: rgba(0, 0, 0, 0);
+    min-height: 85vh; }
+  html body .carousel .carousel-caption {
+    top: 10vw;
+    bottom: auto;
+    background-color: rgba(41, 43, 57, 0.6);
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 6px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); }
+  html body .btn-primary {
+    background-color: #f36c36;
+    color: #f6f4f5;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); }
 
 /*# sourceMappingURL=home.css.map */
