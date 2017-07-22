@@ -3,7 +3,7 @@ html body {
   font-weight: 300;
   background-color: #f6f4f5;
   color: #292b39; }
-  html body h1, html body h1, html body h3, html body h4, html body h5, html body h6, html body nav {
+  html body h1, html body h2, html body h3, html body h4, html body h5, html body h6, html body nav {
     font-family: "Lato";
     font-weight: 700; }
   html body a {
