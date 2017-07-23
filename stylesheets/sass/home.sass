@@ -11,6 +11,9 @@ html
             font-family: "Lato"
             font-weight: 700
 
+        .featurette-heading
+            font-weight: 700
+
         a
             color: $dark-accent
             font-weight: 400
@@ -20,9 +23,19 @@ html
             text-decoration: none
 
         .navbar
-            border-radius: 0px
+            border: 1px solid rgba(255,255,255,0.5)
             background-color: $dark-background
             color: $light-background
+            height: 80px
+
+        .navbar-nav
+            position: absolute
+            bottom: 0px
+            left: 300px
+            font-size: 16px
+
+        .brand-image
+            height: 50px
 
         #myCarousel
             background-image: url("../../images/header.jpg")
@@ -50,13 +63,24 @@ html
             box-shadow: 0px 0px 20px rgba(0,0,0,0.3)
 
         .marketing
-            
-            .featurette-image
-                max-height: 500px
-                border-radius: 6px
-
             padding-top: 40px
 
+        .featurette-image
+            max-height: 500px
+            border-radius: 6px
+
+        .bio
+            .featurette-heading
+                margin-top: 30px
+
+            margin-top: 80px
+            padding-top: 80px
+            padding-bottom: 80px
+            background-color: $dark-background
+            color: $light-background
+            width: 100vw
+
+        // body properties
         font-family: "Source Sans Pro"
         font-weight: 300
         background-color: $light-background

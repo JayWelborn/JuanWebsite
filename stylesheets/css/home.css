@@ -6,6 +6,8 @@ html body {
   html body h1, html body h2, html body h3, html body h4, html body h5, html body h6, html body nav {
     font-family: "Lato";
     font-weight: 700; }
+  html body .featurette-heading {
+    font-weight: 700; }
   html body a {
     color: #f36c36;
     font-weight: 400; }
@@ -13,9 +15,17 @@ html body {
     color: #f8991d;
     text-decoration: none; }
   html body .navbar {
-    border-radius: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     background-color: #292b39;
-    color: #f6f4f5; }
+    color: #f6f4f5;
+    height: 80px; }
+  html body .navbar-nav {
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    font-size: 16px; }
+  html body .brand-image {
+    height: 50px; }
   html body #myCarousel {
     background-image: url("../../images/header.jpg");
     background-size: cover;
@@ -39,8 +49,17 @@ html body {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); }
   html body .marketing {
     padding-top: 40px; }
-    html body .marketing .featurette-image {
-      max-height: 500px;
-      border-radius: 6px; }
+  html body .featurette-image {
+    max-height: 500px;
+    border-radius: 6px; }
+  html body .bio {
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #292b39;
+    color: #f6f4f5;
+    width: 100vw; }
+    html body .bio .featurette-heading {
+      margin-top: 30px; }
 
 /*# sourceMappingURL=home.css.map */
