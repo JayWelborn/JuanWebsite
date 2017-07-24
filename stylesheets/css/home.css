@@ -41,7 +41,7 @@ html body {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 6px;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); }
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4); }
   html body .btn-primary {
     background-color: #f36c36;
     color: #f6f4f5;
@@ -52,14 +52,24 @@ html body {
   html body .featurette-image {
     max-height: 500px;
     border-radius: 6px; }
-  html body .bio {
-    margin-top: 80px;
-    padding-top: 80px;
-    padding-bottom: 80px;
+  html body .featurette-heading {
+    margin-top: 30px; }
+  html body .featurette {
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 80px rgba(41, 43, 57, 0.3); }
+  html body .featurette-reversed {
     background-color: #292b39;
-    color: #f6f4f5;
-    width: 100vw; }
-    html body .bio .featurette-heading {
-      margin-top: 30px; }
+    color: #f6f4f5; }
+  html body #contact {
+    text-align: center; }
+    html body #contact .featurette-heading {
+      margin-bottom: 40px; }
+    html body #contact .contact-column {
+      font-size: 24px;
+      display: block; }
+    html body #contact .social {
+      height: 40px;
+      margin-right: 20px; }
 
 /*# sourceMappingURL=home.css.map */
