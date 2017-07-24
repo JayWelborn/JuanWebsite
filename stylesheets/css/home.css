@@ -19,11 +19,14 @@ html body {
     background-color: #292b39;
     color: #f6f4f5;
     height: 80px; }
+    html body .navbar li > a:hover {
+      color: #f6f4f5; }
   html body .navbar-nav {
-    position: absolute;
-    bottom: 0px;
-    left: 300px;
-    font-size: 16px; }
+    position: relative;
+    bottom: -23.4px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: 400; }
   html body .brand-image {
     height: 50px; }
   html body #myCarousel {
