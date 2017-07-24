@@ -62,6 +62,7 @@ html body {
     background-color: #292b39;
     color: #f6f4f5; }
   html body #contact {
+    padding-bottom: 60px;
     text-align: center; }
     html body #contact .featurette-heading {
       margin-bottom: 40px; }
@@ -70,6 +71,7 @@ html body {
       display: block; }
     html body #contact .social {
       height: 40px;
-      margin-right: 20px; }
+      margin-left: 10px;
+      margin-right: 10px; }
 
 /*# sourceMappingURL=home.css.map */
