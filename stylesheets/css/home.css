@@ -38,7 +38,7 @@ html body {
     background-color: rgba(0, 0, 0, 0);
     min-height: 85vh; }
   html body .carousel .carousel-caption {
-    top: 10vw;
+    top: 11.7vw;
     bottom: auto;
     background-color: rgba(41, 43, 57, 0.6);
     padding-left: 30px;
@@ -71,10 +71,10 @@ html body {
       margin-bottom: 40px; }
     html body #contact .contact-column {
       font-size: 24px;
-      display: block; }
+      display: block;
+      margin-bottom: 30px; }
     html body #contact .social {
       height: 40px;
-      margin-left: 10px;
-      margin-right: 10px; }
+      margin: 10px; }
 
 /*# sourceMappingURL=home.css.map */
