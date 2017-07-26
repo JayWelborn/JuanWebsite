@@ -71,6 +71,13 @@ html
         .featurette-image
             max-height: 500px
             border-radius: 6px
+            // opacity: 0
+            // transform: translateX(20px)
+            // transition: all 0.7s ease-in-out
+
+            // &.is-showing
+            //     opacity: 1
+            //     transform: translateX(0px)
 
         .featurette-heading
             margin-top: 30px
@@ -79,6 +86,13 @@ html
             padding: 30px
             border-radius: 6px
             box-shadow: 0px 0px 80px rgba(41, 43, 57, 0.3)
+            opacity: 0
+            transform: translateX(20px)
+            transition: all 0.7s ease-in-out
+
+            &.is-showing
+                opacity: 1
+                transform: translateX(0px)
 
         .featurette-reversed
             background-color: $dark-background
