@@ -5,6 +5,10 @@ $main-color: #e81e26
 $dark-accent: #f36c36
 $dark-background: #292b39
 
+//device width breakpoints
+$breaksmall: 400px
+$navbar-break: 767px
+
 html
     body
         h1, h2, h3, h4, h5, h6, nav
@@ -25,10 +29,10 @@ html
         .navbar
             li>a:hover
                 color: $light-background
-            border: 1px solid rgba(255,255,255,0.5)
+            border-bottom: 1px solid rgba(255,255,255,0.5)
             background-color: $dark-background
             color: $light-background
-            height: 80px
+            min-height: 80px
 
         .navbar-nav
             position: relative
@@ -36,6 +40,9 @@ html
             left: 20px
             font-size: 16px
             font-weight: 400
+            @media screen and (max-width: $navbar-break)
+                bottom: 0px
+                left: 0px
 
         .brand-image
             height: 50px
@@ -44,14 +51,16 @@ html
             background-image: url("../../images/header.jpg")
             background-size: cover
             background-position: top center
-            min-height: 85vh  
+            min-height: 85vh
+            position: relative
+            z-index: -1
 
         .carousel .item, .carousel .item-active, .carousel .carousel-inner
             background-color: rgba(0,0,0,0)
             min-height: 85vh
 
         .carousel .carousel-caption
-            top: 11.7vw
+            top: 25vh
             bottom: auto
             background-color: rgba(41, 43, 57, 0.6)
             padding-left: 30px
@@ -89,6 +98,7 @@ html
             opacity: 0
             transform: translateX(20px)
             transition: all 0.7s ease-in-out
+            background-color: $light-background
 
             &.is-showing
                 opacity: 1
@@ -97,6 +107,11 @@ html
         .featurette-reversed
             background-color: $dark-background
             color: $light-background
+
+        .featurette-divider
+            margin: 30px
+            @media screen and (max-width: $breaksmall)
+                margin: 20px
 
         #contact
             .featurette-heading
