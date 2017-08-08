@@ -40,8 +40,7 @@ html body {
     background-size: cover;
     background-position: top center;
     min-height: 85vh;
-    position: relative;
-    z-index: -1; }
+    position: relative; }
   html body .carousel .item, html body .carousel .item-active, html body .carousel .carousel-inner {
     background-color: rgba(0, 0, 0, 0);
     min-height: 85vh; }
@@ -52,14 +51,20 @@ html body {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 6px;
-    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4); }
+    text-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+    margin-left: auto;
+    margin-right: auto; }
   html body .btn-primary {
     background-color: #f36c36;
     color: #f6f4f5;
     border: none;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); }
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.2s ease-in-out; }
+  html body .btn-primary:hover {
+    background-color: #f8991d; }
   html body .marketing {
-    padding-top: 40px; }
+    padding-top: 40px;
+    z-index: 1; }
   html body .featurette-image {
     max-height: 500px;
     border-radius: 6px; }
