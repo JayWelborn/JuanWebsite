@@ -4,14 +4,14 @@ function projectParallax(){
         $('#myCarousel').css('top', (0+(scrolled * 0.3)) + 'px');
     }
 }
-    
+
 
 $(window).scroll(function(){
 
     var windowScroll = $(this).scrollTop();
 
     projectParallax();
-    
+
     if ($('.featurette:first').offset().top - $(window).height() * (1/1.1618) < windowScroll)  {
         $('.featurette:first').addClass('is-showing');
     }

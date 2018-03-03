@@ -9,6 +9,10 @@ $dark-background: #292b39
 $breaksmall: 400px
 $navbar-break: 767px
 
+%shadow
+  box-shadow: 0px 0px 30px -7px rgba(0,0,0,0.3)
+
+
 html
     body
         h1, h2, h3, h4, h5, h6, nav
@@ -76,7 +80,7 @@ html
             background-color: $dark-accent
             color: $light-background
             border: none
-            box-shadow: 0px 0px 20px rgba(0,0,0,0.3)
+            box-shadow: 0px -5px 20px rgba(0,0,0,0.3)
             transition: .2s ease-in-out
 
         .btn-primary:hover
@@ -103,7 +107,7 @@ html
         .featurette
             padding: 30px
             border-radius: 6px
-            box-shadow: 0px 0px 80px rgba(41, 43, 57, 0.3)
+            @extend %shadow
             opacity: 0
             transform: translateX(20px)
             transition: all 0.7s ease-in-out
@@ -131,15 +135,8 @@ html
             .social
                 height: 40px
                 margin: 10px
-            .address
-                span
-                    display: block
-                    float: left
-                ul
-                    display: block
-                    list-style-type: none
-                    margin: 0px
-                    padding: 0px
+            .addres
+                margin: 0px auto 10px auto
 
             padding-bottom: 60px
             text-align: center
