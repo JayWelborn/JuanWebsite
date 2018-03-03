@@ -1,3 +1,4 @@
 #VM stuff
 .vagrant/
 *.log
+.sass-cache/
