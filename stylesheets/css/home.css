@@ -91,15 +91,23 @@ html body {
         margin: 20px; } }
   html body #contact {
     padding-bottom: 60px;
-    text-align: center; }
+    text-align: center;
+    font-size: 20px; }
     html body #contact .featurette-heading {
       margin-bottom: 40px; }
     html body #contact .contact-column {
-      font-size: 24px;
       display: block;
       margin-bottom: 30px; }
     html body #contact .social {
       height: 40px;
       margin: 10px; }
+    html body #contact .address span {
+      display: block;
+      float: left; }
+    html body #contact .address ul {
+      display: block;
+      list-style-type: none;
+      margin: 0px;
+      padding: 0px; }
 
 /*# sourceMappingURL=home.css.map */
