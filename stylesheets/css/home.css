@@ -100,10 +100,14 @@ html body {
     html body #contact .contact-column {
       display: block;
       margin-bottom: 30px; }
-    html body #contact .social {
-      height: 40px;
-      margin: 10px; }
-    html body #contact .addres {
+    html body #contact .social-icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center; }
+      html body #contact .social-icons .social {
+        max-height: 50px;
+        padding: 0px 10px; }
+    html body #contact .address {
       margin: 0px auto 10px auto; }
 
 /*# sourceMappingURL=home.css.map */
